@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Análisis de Empresa de telecomunicaciones</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<span style="color: #ffa4de"><a href="index.html">Home</a></span>
+			</ul>
+		</nav>
+		<a href="index.html" class="title"><img src="images/logoPortafolio.png" class="logo" alt="" width=80%
+			height="80%"></a>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">"Análisis de Empresa de telecomunicaciones"</h1>
+				<h2>Objetivo</h2>
+				<p>El objetivo de este análisis es buscar soluciones para retener los clientes con más probabilidad de
+					fuga tomando en consideración esos clientes potenciales para la empresa.
+				</p>
+				<h2>Herramientas Utilizadas</h2>
+				<ul>
+					<li>BigQuery</li>
+					<li>PowerBI</li>
+				</ul>
+				<h2>Conclusiones y Recomendaciones</h2>
+				<ul>
+                    <li>Mejorar la administración de nuestros clientes.</li>
+					<li>Investigar que ofrece la competencia.</li>
+					<li>Aplicar estrategias de fidelización de clientes con mayor valor:
+						<ul>
+							<li>Diseñar experiencias personalizadas </li>
+							<li>Premiar su lealtad.</li>
+						</ul>
+					</li>
+					<li>Verificar Felicidad y productividad del agente de Soporte.</li>
+				</ul>	
+				<h2>video</h2>
+				<a href="https://vimeo.com/741555297/94babad8fe" ><img src="./images/telcoPort.png"  alt=""
+					width=40% height="40%"></a></span><br><br>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Portafolio</li>
+				<li><a href="index.html" class="title"><img src="./images/logoPortafolio.png" class="logo" alt=""
+							width=80% height="80%"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		let video = document.querySelector('video');
+
+		// Set the default playing speed
+		video.defaultPlaybackRate = 1.45
+
+		// Loading the video after setting 
+		video.load();
+
+		function increase() {
+
+			// Increasing the playing speed by 1
+			video.playbackRate += 1;
+		}
+
+		function decrease() {
+
+			// Decreasing the playing speed by 1
+			if (video.playbackRate > 1)
+				video.playbackRate -= 1;
+		}
+	</script>
+</body>
+
+</html>

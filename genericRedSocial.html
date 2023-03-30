@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>GenericRed</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<span style="color: #ffa4de"><a href="index.html">Home</a></span>
+			</ul>
+		</nav>
+		<a href="index.html" class="title"><img src="images/logoPortafolio.png" class="logo" alt="" width=80%
+			height="80%"></a>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Tourist Place</h1>
+				<p>
+				<h2>TEMA DEL PROYECTO</h2>
+				Este proyecto es una Red Social, pensado para aquellos usuarios amantes de las bellezas naturales y
+				sitios o lugares impresionantes.
+
+				<h2>Tipo de Usuario</h2>
+				Va dirigido a esos usuarios amantes del turismo, , mayores de 18 años, en particular a esos usuarios que
+				deseen ver o compartir sus experiencias turísticas, fotos, video, experiencia.
+
+				<h2>Qué resuelve el producto</h2>
+				la mayoría de los usuarios debido a la pandemia no han podido disfrutar de esos paisajes y sitios que
+				les encantaría conocer o que quieran volver a visitar y a través de esta red social pueden pedir
+				opinión, ver lugares que no han visitado y también compartir su propia experiencia.
+				Esta web le servirá como distracción, enfocar su tiempo en lo que le gusta y chatear con la comunidad.
+				<br>
+				<h2>Herramientas utilizadas.</h2>
+				Html 5,
+				Css,
+				Javascript,
+				SPA..
+				<br><br>
+				<h2>Código.</h2>
+				<br> Puedes ver el codigo en <span style="color: #ffa4de"><a
+						href="https://github.com/mailys50/SCL016-social-network/tree/developer">GitHub</a></span><br><br>
+				<h2>video de Avances</h2>
+				<video poster="images/pic03.png" width="320" height="240" controls>
+					<source src="videos/Red Social – Figma.mp4" type="video/mp4">
+				</video>
+				<h2>Prototipo</h2>
+				<br><span class="image1 fit"><img src="images/pic08.png" alt="" /></span>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Portafolio</li>
+				<li><a href="index.html" class="title"><img src="./images/logoPortafolio.png" class="logo" alt=""
+							width=80% height="80%"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		let video = document.querySelector('video');
+
+		// Set the default playing speed
+		video.defaultPlaybackRate = 1.45
+
+		// Loading the video after setting 
+		video.load();
+
+		function increase() {
+
+			// Increasing the playing speed by 1
+			video.playbackRate += 1;
+		}
+
+		function decrease() {
+
+			// Decreasing the playing speed by 1
+			if (video.playbackRate > 1)
+				video.playbackRate -= 1;
+		}
+	</script>
+</body>
+
+</html>

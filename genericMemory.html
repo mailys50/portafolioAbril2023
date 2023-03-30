@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>General Memory Code</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<span style="color: #ffa4de"><a href="index.html">Home</a></span>
+			</ul>
+		</nav>
+		<a href="index.html" class="title"><img src="images/logoPortafolio.png" class="logo" alt="" width=80%
+			height="80%"></a>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Memory code</h1>
+				<p>Este proyecto es un juego de enseñanza, pensado para aquellos usuarios que deseen aprender conceptos
+					básico de programación de una forma entretenida, a través de este juego de memoria.
+				<h2>Tipo de Usuario</h2>
+				Va dirigido a usuarios mayores de 15 años, en particular a esos usuarios que deseen aprender los
+				conceptos básicos de programación a través de un juego.
+				<h2>Qué resuelve el producto</h2>
+				Con esta web el usuario puede repasar o aprender-jugando los conceptos básicos de HTML,CSS y JAVASCRIPT.
+				<br>
+				<h2>Herramientas utilizadas.</h2>
+				Html 5,
+				Css,
+				Javascript,
+				Bootstrap,
+				<br><br>
+				<h2>Código.</h2>
+				<br> Puedes ver el código en <span style="color: #ffa4de"><a
+						href="https://github.com/mailys50/SCL016-memory-match-game/tree/colaborativo">GitHub</a></span><br><br>
+				<h2>video de Avances</h2>
+				<video poster="images/pic04.png" width="320" height="240" controls>
+					<source src="videos/MEMORY CODE.mp4" type="video/mp4">
+				</video>
+				<h2>Prototipo</h2>
+				<span class="image1 fit"><img src="images/pic09.png" alt="" /></span>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Portafolio</li>
+				<li><a href="index.html" class="title"><img src="./images/logoPortafolio.png" class="logo" alt=""
+							width=80% height="80%"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		let video = document.querySelector('video');
+
+		// Set the default playing speed
+		video.defaultPlaybackRate = 1.45
+
+		// Loading the video after setting 
+		video.load();
+
+		function increase() {
+
+			// Increasing the playing speed by 1
+			video.playbackRate += 1;
+		}
+
+		function decrease() {
+
+			// Decreasing the playing speed by 1
+			if (video.playbackRate > 1)
+				video.playbackRate -= 1;
+		}
+	</script>
+
+</body>
+
+</html>

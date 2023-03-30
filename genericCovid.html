@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Análisis de Exceso de Muertes por COVID19</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<nav>
+			<ul>
+				<span style="color: #ffa4de"><a href="index.html">Home</a></span>
+			</ul>
+		</nav>
+		<a href="index.html" class="title"><img src="images/logoPortafolio.png" class="logo" alt="" width=80%
+			height="80%"></a>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">"Análisis de Exceso de Muertes por COVID19"</h1>
+				<h2>Objetivo</h2>
+				<p> analizar los datos de muertes por consecuencia de la pandemia.
+					y corroborar que las cifras oficiales de muertes por causa de COVID-19 se ajustan a la realidad.
+				<h2>Herramientas Utilizadas</h2>
+				<ul>
+					<li>Hoja de cálculo</li>
+				</ul>
+				<h2>Análisis</h2>
+				<ul>
+					<li> El país con mayor diferencia entre las cifras oficiales y las cifras reales es : México,</li>
+					<li>El país con mayor cantidad de muertes por covid-19 es: Perú,</li>
+					<li>Chile es el país con los datos oficiales más parecidos a los datos reales.</li>
+				</ul>
+
+				</p>
+				<h2>Hoja de cálculos</h2>
+				<br><span style="color: #ffa4de"><a
+						href="https://docs.google.com/spreadsheets/d/1g5JIVwPZyf6QZw6jI8c2WabdlSu96ocHeYdGnMWEv6Y/edit?usp=sharing">Proyecto</a></span><br />
+				<br><span style="color: #ffa4de">
+					<h2>Video</h2>
+					<a
+						href="https://www.loom.com/share/d86662eb16e9400d9b76c04799dce8b6"><img src="./images/covid1.png"  alt=""
+						width=40% height="40%"></a></span><br />
+				</p>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>Portafolio</li>
+				<li><a href="index.html" class="title"><img src="./images/logoPortafolio.png" class="logo" alt=""
+							width=80% height="80%"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		let video = document.querySelector('video');
+
+		// Set the default playing speed
+		video.defaultPlaybackRate = 1.45
+
+		// Loading the video after setting 
+		video.load();
+
+		function increase() {
+
+			// Increasing the playing speed by 1
+			video.playbackRate += 1;
+		}
+
+		function decrease() {
+
+			// Decreasing the playing speed by 1
+			if (video.playbackRate > 1)
+				video.playbackRate -= 1;
+		}
+	</script>
+</body>
+
+</html>
