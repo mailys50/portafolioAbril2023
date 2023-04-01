@@ -2694,7 +2694,30 @@ input[type="radio"]+label:before {
 	border-radius: 0.25em;
 	display: block;
 }
-
+.imageTitle img {
+	width: 81%;
+	height: 80%;
+	border-radius: 0.25em;
+	display: block;
+}
+.imageStudy img {
+	width: 67%;
+	height: 80%;
+	border-radius: 0.25em;
+	display: block;
+}
+.imageWorkshop img {
+	width: 51%;
+	height: 92%;
+	border-radius: 0.25em;
+	display: block;
+}
+.imageApostilla img {
+	width: 22%;
+	height: 80%;
+	border-radius: 0.25em;
+	display: block;
+}
 .image.left,
 .image.right {
 	max-width: 40%;
