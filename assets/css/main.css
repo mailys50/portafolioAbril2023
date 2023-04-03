@@ -2695,19 +2695,19 @@ input[type="radio"]+label:before {
 	display: block;
 }
 .imageTitle img {
-	width: 81%;
+	width: 66%;
 	height: 80%;
 	border-radius: 0.25em;
 	display: block;
 }
 .imageStudy img {
-	width: 67%;
+	width: 54%;
 	height: 80%;
 	border-radius: 0.25em;
 	display: block;
 }
 .imageWorkshop img {
-	width: 51%;
+	width: 52%;
 	height: 92%;
 	border-radius: 0.25em;
 	display: block;
@@ -4026,7 +4026,6 @@ body.is-preload #sidebar nav ul li {
 
 #intro {
 	background-attachment: fixed;
-	background-image: url("images/intro.svg");
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
