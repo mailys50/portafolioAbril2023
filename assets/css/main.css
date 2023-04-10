@@ -2695,13 +2695,13 @@ input[type="radio"]+label:before {
 	display: block;
 }
 .imageTitle img {
-	width: 66%;
+	width: 25%;
 	height: 80%;
 	border-radius: 0.25em;
 	display: block;
 }
 .imageStudy img {
-	width: 54%;
+	width: 25%;
 	height: 80%;
 	border-radius: 0.25em;
 	display: block;
